@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import About from './components/About';
 import Services from './components/Services';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
      <p>Let's practice fantastic Git Branching and Merging!</p>
      <About />
      <Services />
+     <Contact/>
     </div>
   );
 }
